@@ -1,4 +1,4 @@
-// FeaturedModelsWall.js
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,7 +6,6 @@ function FeaturedModelsWall() {
   const [models, setModels] = useState([]);
 
   useEffect(() => {
-    // Fetch models from mock API
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then(response => response.json())
       .then(data => setModels(data));

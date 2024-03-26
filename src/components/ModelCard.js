@@ -1,4 +1,4 @@
-// ModelCard.js
+
 import React from 'react';
 import './model.css'
 import { Link } from 'react-router-dom';

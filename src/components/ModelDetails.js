@@ -1,4 +1,4 @@
-// ModelDetailPage.js
+
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from './Header.js';
@@ -8,7 +8,6 @@ function ModelDetails() {
   const { id } = useParams();
 
   useEffect(() => {
-    // Fetch specific model data from mock API
     fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
       .then(response => response.json())
       .then(data => setModel(data))

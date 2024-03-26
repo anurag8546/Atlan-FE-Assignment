@@ -1,4 +1,4 @@
-// App.js
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ModelList from './components/ModelList';
@@ -12,28 +12,6 @@ import Header from './components/Header.js';
 
 function App() {
 
-  // const [likedModels, setLikedModels] = useState([]);
-
-
-  // useEffect(() => {
-  //   const storedLikedModels = localStorage.getItem('likedModels');
-  //   if (storedLikedModels) {
-  //     setLikedModels(JSON.parse(storedLikedModels));
-  //   }
-  // }, []);
-
-  // // Save liked models to local storage whenever it changes
-  // useEffect(() => {
-  //   localStorage.setItem('likedModels', JSON.stringify(likedModels));
-  // }, [likedModels]);
-
-  // const handleLike = (model) => {
-  //   // Check if the model is already liked
-  //   const isLiked = likedModels.some((likedModel) => likedModel.id === model.id);
-  //   if (!isLiked) {
-  //     setLikedModels([...likedModels, model]);
-  //   }
-  // };
   return (        
    <Router>
    <Header/>
