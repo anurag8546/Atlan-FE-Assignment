@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Atlan-FE-Assignment/static/css/main.e15fd1fe.css",
+    "main.js": "/Atlan-FE-Assignment/static/js/main.0e1cfe78.js",
+    "static/js/453.214abef9.chunk.js": "/Atlan-FE-Assignment/static/js/453.214abef9.chunk.js",
+    "index.html": "/Atlan-FE-Assignment/index.html",
+    "main.e15fd1fe.css.map": "/Atlan-FE-Assignment/static/css/main.e15fd1fe.css.map",
+    "main.0e1cfe78.js.map": "/Atlan-FE-Assignment/static/js/main.0e1cfe78.js.map",
+    "453.214abef9.chunk.js.map": "/Atlan-FE-Assignment/static/js/453.214abef9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e15fd1fe.css",
+    "static/js/main.0e1cfe78.js"
+  ]
+}
