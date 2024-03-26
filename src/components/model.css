@@ -1,0 +1,100 @@
+.model-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.model-card {
+  width: calc(20% - 20px); /* Adjust card width to fit 4 cards in a line */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column; /* Align button below title */
+  height: 140px;
+}
+@media only screen and (max-width: 767px) {
+  .model-card {
+    width: 100%; /* Full width on small screens */
+  }
+}
+@media only screen and (min-width: 768px) {
+  .model-card {
+    width: calc(40% - 20px); /* Half width on medium screens */
+  }
+}
+
+/* Large screens (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .model-card {
+    width: calc(25% - 20px); /* One third width on large screens */
+  }
+}
+
+/* Extra large screens (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .model-card {
+    width: calc(20% - 20px); /* Quarter width on extra large screens */
+  }
+}
+.model-card:hover {
+  transform: translateY(-5px); /* Move card up slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Add shadow effect on hover */
+}
+
+.model-heading{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center ;
+}
+.model-div {
+  width: 60%; /* Adjust as needed */
+  margin: 0 auto; /* Center the card */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.model-heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.model-title, .model-id, .model-body {
+  font-weight: bold;
+}
+
+.model-title::after, .model-id::after, .model-body::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.model-title span, .model-id span, .model-body span {
+  font-weight: normal;
+}
+
+.try-now-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.try-now-button:hover {
+  background-color: #0056b3;
+}
